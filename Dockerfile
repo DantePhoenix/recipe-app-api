@@ -29,7 +29,7 @@ RUN python -m venv /py && \
     /py/bin/pip install -r /tmp/requirements.txt && \
     #  if [ $DEV = "true" ]; \
     #      then /py/bin/pip install -r requirements.dev.txt ; \
-    fi && \    
+    # fi && \    
     rm -rf /tmp && \
     adduser \
     --disabled-password \
