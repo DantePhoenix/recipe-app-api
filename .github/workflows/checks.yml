@@ -1,5 +1,6 @@
 # Archivo de conexion con github, que usa el token
 # Jobs: nombra las tareas a realizar, definidas por pasos
+# El Lint no esta funcionando por problemas con flake (Este pase se omitio)
 
 ---
 name: Checks
